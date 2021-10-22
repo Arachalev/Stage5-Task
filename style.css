@@ -1,0 +1,66 @@
+body {
+  font-family: "Oswald", sans-serif;
+  overflow-x: hidden;
+}
+.nav-item {
+  padding: 0 18px;
+}
+p {
+  font-family: "Roboto", sans-serif;
+}
+.btn {
+  border-radius: 50px;
+  font-weight: 200;
+  height: 40px;
+  width: 150px;
+  letter-spacing: 1px;
+}
+.size {
+  width: 40%;
+}
+
+.img-fluid_gaming
+{
+  max-height: 100vh;
+  max-width: 80vw;
+}
+.size-large {
+  font-size: 4rem;
+  letter-spacing: 1.5px;
+}
+h1 {
+  font-weight: 900;
+}
+h2,
+h3 {
+  font-weight: 400;
+}
+.textBox {
+  top: 10%;
+  z-index: 2;
+  position: absolute;
+}
+.textBox h1 {
+  color: #fff;
+}
+.imageBox img {
+  height: 390px;
+  width: 100%;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+@media (max-width: 490px) {
+  .textBox {
+    position: relative;
+    width: 100%;
+  }
+  .textBox h1 {
+    color: #111;
+  }
+  .textBox .btn {
+    display: none;
+  }
+}
+

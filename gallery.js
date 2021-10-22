@@ -5,38 +5,38 @@ let array1=[{
     price:"$1900.99"
 },{
     image:"mac3.jpg",
-    name:"Asus ROG Zephyrus duo",
+    name:"Macbook Pro 13",
     price:"$2499.99"
 }
 ,{
     image:"mac2.jpg",
-    name:"Macbook pro",
+    name:"Macbook Pro 14",
     price:"$3000.00"
 }
 ,{
     image:"mac4.jpg",
-    name:"Taylor Chucks",
-    price:"$122.50"
+    name:"Macbook Air M1",
+    price:"$1199.99"
 }
 ,{
     image:"asus1.jpg",
-    name:"Old school vans",
-    price:"$92.99"
+    name:"Asus Zephyrus M13",
+    price:"$1499.99"
 }
 ,{
     image:"asus duo.jpg",
-    name:"yeezy 350",
-    price:"$142.50"
+    name:"Asus Zephyrus DUO",
+    price:"$1800"
 }
 ,{
     image:"asus2.jfif",
-    name:"Air Jordans 1",
-    price:"$122.50"
+    name:"Asus Proart M14",
+    price:"$2500"
 }
 ,{
     image:"asus4.jpg",
-    name:"Air Jordans retro 350",
-    price:"$132.50"
+    name:"Asus ZenBook 12",
+    price:"$1999.99"
 }
 ,{
     image:"dell3.webp",
@@ -45,18 +45,18 @@ let array1=[{
 }
 ,{
     image:"dell1.jpg",
-    name:"Old school vams",
-    price:"$78.50"
+    name:"AlienWare Strix",
+    price:"$4000.00"
 }
 ,{
     image:"dell2.webp",
-    name:"Nike Sneakers",
-    price:"$138.99"
+    name:"`Dell XPS 13`",
+    price:"$1399.99"
 }
 ,{
     image:"dell5.jpg",
-    name:"air jordan 4 retro",
-    price:"$127.50"
+    name:"Dell G 15",
+    price:"$1699.99"
 }
 ]
 let sneakers = document.querySelector(".imageBox")

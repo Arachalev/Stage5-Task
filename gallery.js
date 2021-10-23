@@ -40,12 +40,12 @@ let array1=[{
 }
 ,{
     image:"dell3.webp",
-    name:"Converse all star",
-    price:"$232.50"
+    name:"AlienWare Strix",
+    price:"$3499.99"
 }
 ,{
     image:"dell1.jpg",
-    name:"AlienWare Strix",
+    name:"Dell XPS 1",
     price:"$4000.00"
 }
 ,{
@@ -61,7 +61,7 @@ let array1=[{
 ]
 let sneakers = document.querySelector(".imageBox")
 array1.forEach((e)=>{
-let html = `<div class="col-lg-3 col-md-4 col-sm-6 bg-light">
+let html = `<div class="col-lg-3 col-md-4 col-sm-6 bg-light ">
                 <img src="img/${e.image}" class="img-fluid" id="myImg" alt="${e.name}">
                 <div class="text-center">
                     <h3 class=" text-capitalize">${e.name}</h3>
